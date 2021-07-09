@@ -1,0 +1,144 @@
+{
+    "Connected Neighbors History": [
+        {
+            "IP": "127.0.0.1",
+            "Port": 10001,
+            "Recieved Packets": 50,
+            "Sent Packets": 69
+        },
+        {
+            "IP": "127.0.0.1",
+            "Port": 10002,
+            "Recieved Packets": 52,
+            "Sent Packets": 66
+        },
+        {
+            "IP": "127.0.0.1",
+            "Port": 10003,
+            "Recieved Packets": 46,
+            "Sent Packets": 70
+        },
+        {
+            "IP": "127.0.0.1",
+            "Port": 10005,
+            "Recieved Packets": 24,
+            "Sent Packets": 48
+        },
+        {
+            "IP": "127.0.0.1",
+            "Port": 10006,
+            "Recieved Packets": 59,
+            "Sent Packets": 71
+        }
+    ],
+    "Current Neighbours": [
+        {
+            "IP": "127.0.0.1",
+            "Port": 10002
+        },
+        {
+            "IP": "127.0.0.1",
+            "Port": 10006
+        }
+    ],
+    "Neighbors Availability": {
+        "10001": {
+            "Seconds": 140,
+            "Percent": 46
+        },
+        "10002": {
+            "Seconds": 137,
+            "Percent": 45
+        },
+        "10003": {
+            "Seconds": 140,
+            "Percent": 46
+        },
+        "10005": {
+            "Seconds": 96,
+            "Percent": 32
+        },
+        "10006": {
+            "Seconds": 145,
+            "Percent": 48
+        }
+    },
+    "Topology": {
+        "Vertexes": [
+            10001,
+            10002,
+            10003,
+            10004,
+            10005,
+            10006
+        ],
+        "Edges": [
+            {
+                "From": {
+                    "IP": "127.0.0.1",
+                    "Port": 10004
+                },
+                "To": {
+                    "IP": "127.0.0.1",
+                    "Port": 10002
+                },
+                "Connection Type": "BiDirectional"
+            },
+            {
+                "From": {
+                    "IP": "127.0.0.1",
+                    "Port": 10004
+                },
+                "To": {
+                    "IP": "127.0.0.1",
+                    "Port": 10006
+                },
+                "Connection Type": "BiDirectional"
+            },
+            {
+                "From": {
+                    "IP": "127.0.0.1",
+                    "Port": 10004
+                },
+                "To": {
+                    "IP": "127.0.0.1",
+                    "Port": 10001
+                },
+                "Connection Type": "UniDirectional"
+            },
+            {
+                "From": {
+                    "IP": "127.0.0.1",
+                    "Port": 10002
+                },
+                "To": {
+                    "IP": "127.0.0.1",
+                    "Port": 10006
+                },
+                "Connection Type": "BiDirectional"
+            },
+            {
+                "From": {
+                    "IP": "127.0.0.1",
+                    "Port": 10002
+                },
+                "To": {
+                    "IP": "127.0.0.1",
+                    "Port": 10001
+                },
+                "Connection Type": "BiDirectional"
+            },
+            {
+                "From": {
+                    "IP": "127.0.0.1",
+                    "Port": 10006
+                },
+                "To": {
+                    "IP": "127.0.0.1",
+                    "Port": 10001
+                },
+                "Connection Type": "BiDirectional"
+            }
+        ]
+    }
+}
